@@ -81,11 +81,6 @@ Acesse:
 npm run build
 ```
 
-Recomendado: 
-* Vercel
-* Netlify
-* GitHub Pages
-
 ---
 
 # 📄 Licença Proprietária de Uso Restrito
