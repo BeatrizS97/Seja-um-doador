@@ -1,164 +1,166 @@
-# 🫀 Site de Doação de Sangue - Em Memória de Rodrigo e Natalha
+# 🫀 Site de Doação de Sangue – Em Memória de Rodrigo e Natalha
 
-## 📋 Sobre o Projeto
+![No Forks](https://img.shields.io/badge/fork-proibido-critical)
+![Copyright](https://img.shields.io/badge/copyright-2025%20Beatriz%20Silva-red)
+![Projeto Autoral](https://img.shields.io/badge/projeto-autoral-orange)
+![Licença Proprietária](https://img.shields.io/badge/licença-proprietária-black)
 
-Site criado em homenagem ao Rodrigo e Natalha, com o objetivo de promover a doação de sangue e conscientizar sobre a importância deste ato que salva vidas.
+Este projeto foi criado com amor, memória e propósito, como uma homenagem aos meus irmãos **Rodrigo** e **Natalha**.  
+O objetivo é incentivar a doação de sangue e conscientizar sobre a importância desse gesto que salva vidas.
 
-### ✨ Funcionalidades
-
-- 🏠 **Página Inicial**: Apresentação emocional do projeto com estatísticas impactantes
-- 💉 **Cuidados**: Orientações completas antes e depois da doação + requisitos para doar
-- 📖 **Histórias**: Depoimentos reais de pessoas que receberam transfusões + dados sobre estados com menos doação
-- 🗺️ **Hemocentros**: Busca por cidade + lista completa de hemocentros do Brasil
-- ❤️ **Coração Pulsante**: Animação especial com a mensagem "Rodrigo e Natalha ainda vivem em nós"
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-
-- Node.js (versão 14 ou superior)
-- npm ou yarn
-
-### Instalação
-
-1. **Clone ou crie o projeto:**
-```bash
-npx create-react-app blood-donation-memorial
-cd blood-donation-memorial
-```
-
-2. **Instale as dependências:**
-```bash
-npm install react-router-dom lucide-react
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-3. **Copie todos os arquivos fornecidos para as pastas corretas:**
-
-```
-blood-donation-memorial/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Navigation.jsx
-│   │   ├── Footer.jsx
-│   │   ├── HeartBeat.jsx
-│   │   └── Button.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Care.jsx
-│   │   ├── Stories.jsx
-│   │   └── Map.jsx
-│   ├── data/
-│   │   ├── hemocentros.js
-│   │   ├── testimonials.js
-│   │   └── statistics.js
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
-├── package.json
-├── tailwind.config.js
-└── postcss.config.js
-```
-
-4. **Execute o projeto:**
-```bash
-npm start
-```
-
-O site será aberto automaticamente em `http://localhost:3000`
-
-## 🎨 Tecnologias Utilizadas
-
-- **React 18** - Biblioteca JavaScript para interfaces
-- **React Router DOM** - Navegação entre páginas
-- **Tailwind CSS** - Framework CSS utilitário
-- **Lucide React** - Ícones modernos
-- **CSS3** - Animações e gradientes
-
-## 📱 Páginas do Site
-
-### 1. Início (`/`)
-- Hero emocional com coração pulsante
-- Estatísticas sobre doação de sangue
-- Missão do projeto
-- Links rápidos para outras seções
-
-### 2. Cuidados (`/cuidados`)
-- Orientações antes da doação
-- Cuidados após a doação
-- Requisitos para ser doador
-- Impedimentos temporários e permanentes
-- Fatos importantes sobre doação
-
-### 3. Histórias (`/historias`)
-- Depoimentos reais de pessoas que receberam sangue
-- Visualização do impacto de uma doação
-- Componentes do sangue e seus usos
-- Estados com menor índice de doação (gráficos)
-
-### 4. Hemocentros (`/hemocentros`)
-- Busca por cidade
-- Filtro por estado
-- Lista completa de hemocentros do Brasil
-- Informações de contato e endereço
-
-## 🎯 Próximos Passos
-
-Para colocar online:
-
-### Opção 1: Vercel (Recomendado - Grátis)
-```bash
-npm install -g vercel
-npm run build
-vercel
-```
-
-### Opção 2: Netlify (Grátis)
-```bash
-npm run build
-# Arraste a pasta 'build' para netlify.com
-```
-
-### Opção 3: GitHub Pages
-```bash
-npm install gh-pages --save-dev
-# Adicione no package.json:
-# "homepage": "https://seuusuario.github.io/blood-donation"
-# "predeploy": "npm run build"
-# "deploy": "gh-pages -d build"
-npm run deploy
-```
-
-## 💡 Personalizações Possíveis
-
-- Adicionar mais hemocentros no arquivo `src/data/hemocentros.js`
-- Incluir novos depoimentos em `src/data/testimonials.js`
-- Alterar cores no arquivo `tailwind.config.js`
-- Adicionar Google Analytics
-- Integrar com API de geolocalização
-- Adicionar formulário de contato
-- Criar seção de blog com notícias
-
-## 🤝 Contribuindo
-
-Este é um projeto de homenagem. Sugestões são bem-vindas!
-
-## 📄 Licença
-
-Este projeto foi criado com amor em memória de Rodrigo e Natalha.
+> **Este repositório é autoral e possui licença proprietária.  
+> É proibido copiar, clonar, fazer fork, reutilizar ou distribuir qualquer parte deste projeto.**
 
 ---
 
-**"Rodrigo e Natalha ainda vivem em nós. Faça parte dessa corrente."** ❤️
+## ✨ Funcionalidades
 
-## 📞 Suporte
+- 🏠 Página inicial com mensagem emocional  
+- 💉 Cuidados antes e depois da doação  
+- 📖 Histórias reais e dados sobre transfusões  
+- 🗺️ Lista completa de hemocentros do Brasil  
+- ❤️ Coração pulsante em homenagem a Rodrigo e Natalha  
 
-Em caso de dúvidas sobre o projeto, consulte a documentação do React em [reactjs.org](https://reactjs.org/)
+---
 
-## 🙏 Agradecimentos
+## 🚀 Tecnologias Utilizadas
 
-A todos que doam sangue e salvam vidas diariamente.
+- React + Vite  
+- TailwindCSS  
+- React Router DOM  
+- Lucide React  
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+
+src/
+├── assets/
+├── components/
+│   ├── Navigation.jsx
+│   ├── Footer.jsx
+│   ├── HeartBeat.jsx
+│   └── Button.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Care.jsx
+│   ├── Stories.jsx
+│   └── Map.jsx
+├── data/
+│   ├── hemocentros.js
+│   ├── testimonials.js
+│   └── statistics.js
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+````
+
+---
+
+## ▶️ Como Rodar
+
+```bash
+npm install
+npm run dev
+````
+
+Acesse:
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## ☁️ Build e Deploy
+
+```bash
+npm run build
+```
+
+Recomendados:
+
+* **Vercel**
+* **Netlify**
+* **GitHub Pages**
+
+# 📄 Licença Proprietária de Uso Restrito
+### © 2025 Beatriz Silva — Todos os direitos reservados.
+
+## 📌 Visão Geral
+Este projeto é **totalmente proprietário**, criado por Beatriz Silva, e **não concede qualquer permissão pública** de uso, cópia, redistribuição ou modificação.
+
+Todo o código, design, textos, imagens, animações, estrutura e demais elementos são protegidos por direitos autorais.
+
+---
+
+## ❌ Proibições (Aplicáveis a Todos)
+
+### 🔒 Código e Arquivos
+É proibido, sem autorização prévia e escrita da autora:
+
+- Copiar ou baixar o projeto  
+- Fazer fork (inclusive no GitHub)  
+- Repostar ou redistribuir  
+- Criar projetos derivados  
+- Copiar ou reutilizar partes do código  
+- Clonar o repositório  
+- Usar para estudo, trabalhos ou projetos pessoais  
+
+### 🎨 Design, Identidade e Conteúdo
+É proibido:
+
+- Reutilizar layout, cores, estrutura ou identidade visual  
+- Copiar textos, imagens, histórias, dados ou animações  
+- Utilizar os componentes visuais em outros projetos  
+
+### 💰 Uso Comercial
+É **terminantemente proibido** comercializar, vender, licenciar ou utilizar profissionalmente qualquer parte deste projeto.
+
+---
+
+## ⚠️ Finalidade do Repositório
+
+Este repositório existe **apenas** para:
+
+- Registro pessoal  
+- Preservação de memória  
+- Portfólio da autora  
+- Demonstração autoral  
+
+Não se trata de um projeto open-source.
+
+---
+
+## 🛡️ Consequências de Uso Indevido
+
+Qualquer uso não autorizado poderá resultar em:
+
+- **Solicitação de remoção DMCA**
+- Penalidades civis
+- Medidas legais de acordo com as leis brasileiras e internacionais de copyright
+
+---
+
+## 📬 Solicitação de Permissão
+
+Permissões especiais podem ser concedidas somente em casos específicos.  
+Para solicitar autorização, entre em contato:
+
+**Beatriz Silva**  
+Autora & Desenvolvedora
+
+---
+
+## ❤️ Nota da Autora
+
+Este projeto é profundamente pessoal, criado como homenagem a **Rodrigo e Natalha**.  
+Toda proteção existe para resguardar sua memória e significado.
+
+---
+
+## 🧡 Dedicação
+
+**Rodrigo e Natalha, vocês ainda vivem em nós.**
+Este projeto é para vocês. Sempre.
