@@ -81,7 +81,7 @@ Acesse:
 npm run build
 ```
 
-Recomendado:
+Recomendado: 
 * Vercel
 * Netlify
 * GitHub Pages
