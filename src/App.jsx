@@ -7,6 +7,7 @@ import Care from './pages/Care';
 import Stories from './pages/Stories';
 import Map from './pages/Map';
 import './App.css';
+import DonationGoalPage from './pages/DonationGoalPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cuidados" element={<Care />} />
           <Route path="/historias" element={<Stories />} />
           <Route path="/hemocentros" element={<Map />} />
+          <Route path="/doacao" element={<DonationGoalPage />} />
         </Routes>
         <Footer />
       </div>
