@@ -1,6 +1,5 @@
-// src/components/Navigation.jsx
 import React from 'react';
-import { Home, AlertCircle, Users, MapPin } from 'lucide-react';
+import { Home, AlertCircle, Users, MapPin, Heart } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import HeartBeat from './HeartBeat';
 
@@ -11,7 +10,8 @@ const Navigation = () => {
     { path: '/', label: 'Início', icon: Home },
     { path: '/cuidados', label: 'Cuidados', icon: AlertCircle },
     { path: '/historias', label: 'Histórias', icon: Users },
-    { path: '/hemocentros', label: 'Hemocentros', icon: MapPin }
+    { path: '/hemocentros', label: 'Hemocentros', icon: MapPin },
+    { path: '/doacao', label: 'Metas de Doações', icon: Heart }
   ];
 
   return (
@@ -20,28 +20,28 @@ const Navigation = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo e Nome */}
           <Link to="/" className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity">
-            <HeartBeat size="medium" />
+            <HeartBeat size="small" />
             <div className="flex flex-col">
-              <span className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-rose-600 to-red-700 bg-clip-text text-transparent">
+              <span className="text-xl lg:text-2x1 font-bold bg-gradient-to-r from-rose-600 to-red-700 bg-clip-text text-transparent">
                 Doe Vida
               </span>
-              <span className="text-xs text-gray-600 -mt-1">Rodrigo e Natalha vivem em nós</span>
+              <span className="text-xs text-gray-600 -mt-0.5">Rodrigo e Natalha vivem em nós</span>
             </div>
           </Link>
           
           {/* Menu Desktop */}
-          <div className="hidden md:flex space-x-4 lg:space-x-8">
+          <div className="hidden md:flex space-x-3 lg:space-x-6">
             {navItems.map(({ path, label, icon: Icon }) => (
               <Link
                 key={path}
                 to={path}
-                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-semibold transition-all ${
+                className={`flex items-center space-x-1.5 px-4 py-3 rounded-lg font-semibold transition-all text-sm ${
                   location.pathname === path
                     ? 'bg-gradient-to-r from-rose-600 to-red-700 text-white shadow-lg'
                     : 'text-gray-700 hover:bg-rose-50'
                 }`}
               >
-                <Icon className="w-5 h-5" />
+                <Icon className="w-4 h-4" />
                 <span>{label}</span>
               </Link>
             ))}
@@ -59,7 +59,7 @@ const Navigation = () => {
                     : 'text-gray-700 hover:bg-rose-50'
                 }`}
               >
-                <Icon className="w-5 h-5" />
+                <Icon className="w-4 h-4" />
               </Link>
             ))}
           </div>
